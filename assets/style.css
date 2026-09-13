@@ -1,0 +1,77 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ p{
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+ }
+
+ b{
+    font-size: 14px;
+    color: #222;
+ }
+
+ header {
+     background-color: #dbeafe;
+     padding: 20px;
+     text-align: center;
+ }
+
+ aside {
+     background-color: #ede9fe;
+     padding: 15px;
+     width: 200px;
+     float: left;
+ }
+
+ main {
+     margin-left: 220px;
+     padding: 20px;
+ }
+
+ footer {
+     background-color: #dbeafe;
+     padding: 10px;
+     text-align: center;
+     clear: both;
+ }
+
+ .box {
+     line-height: 1.6;
+     color: #4c1d95;
+     background-color: #f5f3ff;
+ }
+
+ .left {
+     float: left;
+     width: 50%;
+ }
+
+ .right {
+     float: right;
+     width: 50%;
+ }
+
+ #education-history {
+     margin-top: 20px;
+     background-color: #c4b5fd;
+ }
+
+ section {
+     margin-bottom: 20px;
+     clear: both;
+ }
+
+ .boxPanel {
+     background-color: #f5f3ff;
+     padding: 10px;
+     margin-bottom: 10px;
+     float: left;
+     border: 1px solid #a78bfa;
+     margin-right: 10px;
+     border-radius: 5px;
+ }
