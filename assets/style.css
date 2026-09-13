@@ -99,15 +99,18 @@ footer p {
     width: 50%;
 }
 
-#education-history {
-    margin-top: 20px;
-    background-color: #c4b5fd;
-    padding: 10px;
+#basic-info {
+    min-height: 230px;
 }
 
-#education-history p {
-    font-weight: bold;
-    margin-top: 0;
+.foto-profil {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 section {
@@ -130,38 +133,66 @@ section {
     margin-bottom: 5px;
 }
 
-#basic-info {
-    min-height: 230px;
+/* Tabel Riwayat Sekolah */
+#education-history {
+    margin-top: 20px;
+    background-color: #c4b5fd;
+    padding: 12px;
 }
 
-.foto-profil {
-    width: 150px;
-    height: 180px;
-    object-fit: cover;
-    float: right;
-    margin-left: 20px;
+#education-history p {
+    font-weight: bold;
+    margin-top: 0;
     margin-bottom: 10px;
-    border-radius: 5px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     background-color: #f5f3ff;
+    table-layout: fixed;
 }
 
 th,
 td {
     border: 1px solid #8b7cc7;
     padding: 10px;
-    text-align: left;
 }
 
 th {
-    font-size: 14px;
     background-color: #ddd6fe;
+    font-size: 14px;
+    text-align: center;
 }
 
 td {
     font-size: 14px;
+    text-align: center;
+}
+
+/* Lebar kolom */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 8%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 42%;
+    text-align: left;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 25%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 25%;
+}
+
+tfoot th {
+    text-align: center;
+    background-color: #ddd6fe;
 }
