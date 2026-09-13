@@ -75,3 +75,12 @@ body {
      margin-right: 10px;
      border-radius: 5px;
  }
+
+.foto-profil {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
