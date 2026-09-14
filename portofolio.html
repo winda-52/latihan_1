@@ -2,38 +2,17 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Portofolio Windarti Setianingrum.">
 
     <title>Portofolio Windarti Setianingrum</title>
 
-
     <style>
-
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
-
-
-        p {
-            font-size: 14px;
-            color: #333;
-            line-height: 1.6;
-        }
-
-
-        b {
-            font-size: 15px;
-            color: #222;
-        }
-
 
         header {
             background-color: #dbeafe;
@@ -41,80 +20,24 @@
             text-align: center;
         }
 
-
         header p {
+            margin: 0;
             font-size: 16px;
             font-weight: bold;
-            margin: 0;
         }
-
 
         aside {
             background-color: #ede9fe;
             padding: 15px;
             width: 200px;
             float: left;
-            min-height: 500px;
+            min-height: 600px;
         }
-
-
-        aside b {
-            font-size: 16px;
-        }
-
-
-        aside ul {
-            padding-left: 25px;
-        }
-
-
-        aside li {
-            margin-bottom: 8px;
-        }
-
-
-        aside a {
-            color: #333;
-            text-decoration: none;
-        }
-
-
-        aside a:hover {
-            text-decoration: underline;
-        }
-
 
         main {
-            margin-left: 220px;
+            margin-left: 230px;
             padding: 20px;
         }
-
-
-        h1 {
-            font-size: 32px;
-            margin-top: 20px;
-            margin-bottom: 30px;
-        }
-
-
-        footer {
-            background-color: #dbeafe;
-            padding: 10px;
-            text-align: center;
-            clear: both;
-        }
-
-
-        footer p {
-            margin: 0;
-            font-size: 13px;
-        }
-
-
-        #portfolio {
-            clear: both;
-        }
-
 
         .portfolio-item {
             background-color: #f5f3ff;
@@ -124,21 +47,10 @@
             margin-bottom: 25px;
         }
 
-
         .portfolio-item h3 {
             color: #4c1d95;
-            font-size: 20px;
             margin-top: 0;
-            margin-bottom: 15px;
         }
-
-
-        .portfolio-item p {
-            font-size: 14px;
-            line-height: 1.6;
-            margin: 8px 0;
-        }
-
 
         .portfolio-image {
             width: 100%;
@@ -146,232 +58,149 @@
             height: auto;
             display: block;
             margin: 15px auto;
-            border-radius: 6px;
-            border: 1px solid #ccc;
         }
 
+        footer {
+            background-color: #dbeafe;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
     </style>
 
 </head>
 
-
 <body>
 
+<header>
+    <p>Portofolio Windarti Setianingrum</p>
+</header>
 
-    <!-- HEADER -->
+<aside>
 
-    <header>
+    <b>Menu</b>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+</aside>
+
+<main>
+
+    <h1>Portofolio</h1>
+
+
+    <div class="portfolio-item">
+
+        <h3>Desain UI/UX Aplikasi WashGo</h3>
+
+        <img src="assets/washgo.png"
+             alt="Desain UI/UX aplikasi WashGo"
+             class="portfolio-image">
 
         <p>
-            Portofolio Windarti Setianingrum
+            Merancang desain antarmuka aplikasi WashGo,
+            yaitu aplikasi layanan laundry yang ditujukan
+            untuk mahasiswa.
         </p>
-
-    </header>
-
-
-
-    <!-- MENU -->
-
-    <aside>
-
-        <b>Menu</b>
-
-        <nav>
-
-            <ul>
-
-                <li>
-                    <a href="index.html">
-                        Beranda
-                    </a>
-                </li>
-
-                <li>
-                    <a href="portofolio.html">
-                        Portofolio
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        Kontak
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </aside>
-
-
-
-    <!-- ISI -->
-
-    <main>
-
-        <h1>
-            Portofolio
-        </h1>
-
-
-        <section id="portfolio">
-
-
-            <!-- PROYEK 1 -->
-
-            <div class="portfolio-item">
-
-                <h3>
-                    Desain UI/UX Aplikasi WashGo
-                </h3>
-
-
-                <img
-                    src="assets/washgo.png"
-                    alt="Desain UI/UX aplikasi WashGo"
-                    class="portfolio-image"
-                >
-
-
-                <p>
-                    Merancang desain antarmuka aplikasi WashGo,
-                    yaitu aplikasi layanan laundry yang ditujukan
-                    untuk mahasiswa.
-                </p>
-
-
-                <p>
-                    Proyek ini dikerjakan secara berkelompok
-                    menggunakan Figma.
-                </p>
-
-
-                <p>
-                    <b>Mata Kuliah:</b>
-                    Interaksi Manusia dan Komputer
-                </p>
-
-
-                <p>
-                    <b>Tools:</b>
-                    Figma
-                </p>
-
-
-                <p>
-                    <b>Jenis:</b>
-                    Kerja Kelompok - UI/UX Design
-                </p>
-
-            </div>
-
-
-
-            <!-- PROYEK 2 -->
-
-            <div class="portfolio-item">
-
-                <h3>
-                    Tugas UAS Keamanan Komputer
-                </h3>
-
-
-                <img
-                    src="assets/jarkom.png"
-                    alt="Topologi jaringan tugas UAS Keamanan Komputer"
-                    class="portfolio-image"
-                >
-
-
-                <p>
-                    Merancang topologi jaringan komputer
-                    sebagai tugas UAS mata kuliah
-                    Keamanan Komputer yang dikerjakan
-                    secara berkelompok.
-                </p>
-
-
-                <p>
-                    Proyek ini menggunakan Cisco Packet Tracer
-                    untuk membuat dan menghubungkan beberapa
-                    segmen jaringan, router, switch, dan komputer.
-                </p>
-
-
-                <p>
-                    <b>Mata Kuliah:</b>
-                    Keamanan Komputer
-                </p>
-
-
-                <p>
-                    <b>Tools:</b>
-                    Cisco Packet Tracer
-                </p>
-
-
-                <p>
-                    <b>Jenis:</b>
-                    Tugas UAS - Kerja Kelompok
-                </p>
-
-            </div>
-
-
-
-            <!-- PROYEK 3 -->
-
-            <div class="portfolio-item">
-
-                <h3>
-                    Website Profil Pribadi
-                </h3>
-
-
-                <p>
-                    Membuat website profil pribadi
-                    menggunakan HTML dan CSS sebagai
-                    tugas perkuliahan.
-                </p>
-
-
-                <p>
-                    Website berisi informasi diri,
-                    pendidikan, dan portofolio.
-                </p>
-
-
-                <p>
-                    <b>Tools:</b>
-                    HTML, CSS, GitHub
-                </p>
-
-
-                <p>
-                    <b>Jenis:</b>
-                    Tugas Perkuliahan
-                </p>
-
-            </div>
-
-
-        </section>
-
-    </main>
-
-
-
-    <!-- FOOTER -->
-
-    <footer>
 
         <p>
-            &copy; 2026 Winda. All rights reserved.
+            Proyek ini dikerjakan secara berkelompok
+            menggunakan Figma.
         </p>
 
-    </footer>
+        <p>
+            <b>Mata Kuliah:</b>
+            Interaksi Manusia dan Komputer
+        </p>
 
+        <p>
+            <b>Tools:</b>
+            Figma
+        </p>
+
+        <p>
+            <b>Jenis:</b>
+            Kerja Kelompok - UI/UX Design
+        </p>
+
+    </div>
+
+
+    <div class="portfolio-item">
+
+        <h3>Tugas UAS Keamanan Komputer</h3>
+
+        <img src="assets/jarkom.png"
+             alt="Topologi jaringan tugas UAS Keamanan Komputer"
+             class="portfolio-image">
+
+        <p>
+            Merancang topologi jaringan komputer sebagai
+            tugas UAS mata kuliah Keamanan Komputer yang
+            dikerjakan secara berkelompok.
+        </p>
+
+        <p>
+            Proyek ini menggunakan Cisco Packet Tracer
+            untuk membuat dan menghubungkan beberapa
+            segmen jaringan, router, switch, dan komputer.
+        </p>
+
+        <p>
+            <b>Mata Kuliah:</b>
+            Keamanan Komputer
+        </p>
+
+        <p>
+            <b>Tools:</b>
+            Cisco Packet Tracer
+        </p>
+
+        <p>
+            <b>Jenis:</b>
+            Tugas UAS - Kerja Kelompok
+        </p>
+
+    </div>
+
+
+    <div class="portfolio-item">
+
+        <h3>Website Profil Pribadi</h3>
+
+        <p>
+            Membuat website profil pribadi menggunakan
+            HTML dan CSS sebagai tugas perkuliahan.
+        </p>
+
+        <p>
+            Website berisi informasi diri, pendidikan,
+            dan portofolio.
+        </p>
+
+        <p>
+            <b>Tools:</b>
+            HTML, CSS, GitHub
+        </p>
+
+        <p>
+            <b>Jenis:</b>
+            Tugas Perkuliahan
+        </p>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Winda. All rights reserved.</p>
+</footer>
 
 </body>
 
