@@ -338,3 +338,70 @@ footer p {
     margin: 0;
     font-size: 13px;
 }
+
+/* ========================= */
+/* PERBAIKAN LAYOUT BERANDA */
+/* ========================= */
+
+#basic-info {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 30px !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    clear: both !important;
+}
+
+/* BAGIAN LOGO */
+#basic-info .left {
+    float: none !important;
+    width: 25% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* LOGO DIPERBESAR */
+#basic-info .left img {
+    width: 200px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+/* BAGIAN DATA DIRI */
+#basic-info .right {
+    float: none !important;
+    width: 75% !important;
+    min-height: 0 !important;
+    height: auto !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+}
+
+/* JUDUL DATA DIRI */
+#basic-info .right h3 {
+    margin: 0 0 12px 0 !important;
+}
+
+/* DATA DIRI */
+#basic-info .right p {
+    margin: 5px 0 !important;
+}
+
+/* FOTO */
+#basic-info .foto-profil {
+    width: 150px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    float: right !important;
+    margin: 0 0 10px 20px !important;
+}
+
+/* RIWAYAT SEKOLAH */
+#education-history {
+    clear: both !important;
+    margin-top: 10px !important;
+    padding: 12px !important;
+}
