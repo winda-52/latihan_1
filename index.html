@@ -5,231 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Profil Windarti Setianingrum.">
-
-    <title>Profil Windarti Setianingrum</title>
-
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-
-<body>
-
-    <header>
-        <p>
-            Profil Windarti Setianingrum
-        </p>
-    </header>
-
-    <aside>
-
-        <b>Menu</b>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Beranda</a>
-                </li>
-
-                <li>
-                    <a href="portofolio.html">Portofolio</a>
-                </li>
-
-                <li>
-                    <a href="#">Kontak</a>
-                </li>
-            </ul>
-        </nav>
-
-    </aside>
-
-
-    <main>
-
-        <h1>Profil Saya</h1>
-
-
-        <!-- DASHBOARD -->
-
-        <section id="dashboard">
-
-            <div class="boxPanel">
-
-                <h4>Selamat Datang</h4>
-
-                <p>
-                    Selamat datang di halaman profil pribadi
-                    Windarti Setianingrum.
-                </p>
-
-            </div>
-
-
-            <div class="boxPanel">
-
-                <h4>Profil Mahasiswa</h4>
-
-                <p>
-                    <b>Nama:</b>
-                    Windarti Setianingrum
-                </p>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- DATA DIRI -->
-
-        <section id="basic-info">
-
-            <div class="box left">
-
-                <img src="assets/logoundiksha.png"
-                     alt="Logo Undiksha"
-                     width="100">
-
-            </div>
-
-
-            <div class="right">
-
-                <img src="assets/profil.png"
-                     alt="Foto Windarti"
-                     class="foto-profil">
-
-
-                <h3>Data Diri</h3>
-
-                <p>
-                    Nama: Windarti Setianingrum
-                </p>
-
-                <p>
-                    NIM: 2415101052
-                </p>
-
-                <p>
-                    Program Studi: Ilmu Komputer
-                </p>
-
-                <p>
-                    Jenis Kelamin: Perempuan
-                </p>
-
-                <p>
-                    Hobi: Memasak
-                </p>
-
-                <p>
-                    Asal Kota: Singaraja
-                </p>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- RIWAYAT PENDIDIKAN -->
-
-        <section id="education-history">
-
-            <p>
-                Riwayat Sekolah
-            </p>
-
-
-            <table>
-
-                <thead>
-
-                    <tr>
-
-                        <th>No</th>
-
-                        <th>Nama Sekolah</th>
-
-                        <th>Tahun Masuk</th>
-
-                        <th>Tahun Lulus</th>
-
-                    </tr>
-
-                </thead>
-
-
-                <tbody>
-
-                    <tr>
-
-                        <td>1</td>
-
-                        <td>SMPN 6 Singaraja</td>
-
-                        <td>2018</td>
-
-                        <td>2021</td>
-
-                    </tr>
-
-
-                    <tr>
-
-                        <td>2</td>
-
-                        <td>SMKN 3 Singaraja</td>
-
-                        <td>2021</td>
-
-                        <td>2024</td>
-
-                    </tr>
-
-                </tbody>
-
-
-                <tfoot>
-
-                    <tr>
-
-                        <th colspan="4">
-                            Riwayat Pendidikan
-                        </th>
-
-                    </tr>
-
-                </tfoot>
-
-            </table>
-
-        </section>
-
-    </main>
-
-
-
-    <footer>
-
-        <p>
-            &copy; 2026 Winda. All rights reserved.
-        </p>
-
-    </footer>
-
-
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Profil Windarti Setianingrum.">
+    <meta name="description" content="Profil Windarti Setianingrum">
 
     <title>Profil Windarti Setianingrum</title>
 
@@ -277,7 +53,6 @@
             padding: 15px;
             width: 200px;
             float: left;
-            min-height: 600px;
         }
 
         aside b {
@@ -286,6 +61,7 @@
 
         aside ul {
             padding-left: 25px;
+            margin-top: 15px;
         }
 
         aside li {
@@ -294,6 +70,7 @@
 
         aside a {
             color: #333;
+            text-decoration: none;
             font-size: 14px;
         }
 
@@ -314,7 +91,7 @@
         #dashboard {
             display: flex;
             gap: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         .boxPanel {
@@ -337,9 +114,9 @@
         #basic-info {
             display: grid;
             grid-template-columns: 180px 1fr 150px;
-            column-gap: 25px;
+            gap: 20px;
             align-items: start;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         /* LOGO */
@@ -347,8 +124,6 @@
         #basic-info .left {
             width: auto;
             float: none;
-            padding: 0;
-            margin: 0;
         }
 
         #basic-info .left img {
@@ -363,8 +138,6 @@
         #basic-info .right {
             width: auto;
             float: none;
-            padding: 0;
-            margin: 0;
         }
 
         #basic-info .right h3 {
@@ -376,24 +149,22 @@
             margin: 5px 0;
         }
 
-        /* FOTO PROFIL */
+        /* FOTO */
 
         .foto-profil {
             width: 150px;
             height: 180px;
             object-fit: cover;
             display: block;
-            margin: 0;
             border-radius: 5px;
         }
 
         /* RIWAYAT */
 
         #education-history {
-            clear: both;
-            margin-top: 5px;
             background-color: #c4b5fd;
             padding: 12px;
+            margin-top: 10px;
         }
 
         #education-history > p {
@@ -503,16 +274,18 @@
 
     <main>
 
-        <h1>Profil Saya</h1>
+        <h1>
+            Profil Saya
+        </h1>
 
-
-        <!-- DASHBOARD -->
 
         <section id="dashboard">
 
             <div class="boxPanel">
 
-                <h4>Selamat Datang</h4>
+                <h4>
+                    Selamat Datang
+                </h4>
 
                 <p>
                     Selamat datang di halaman profil pribadi
@@ -524,18 +297,19 @@
 
             <div class="boxPanel">
 
-                <h4>Profil Mahasiswa</h4>
+                <h4>
+                    Profil Mahasiswa
+                </h4>
 
                 <p>
-                    <b>Nama:</b> Windarti Setianingrum
+                    <b>Nama:</b>
+                    Windarti Setianingrum
                 </p>
 
             </div>
 
         </section>
 
-
-        <!-- DATA DIRI -->
 
         <section id="basic-info">
 
@@ -549,19 +323,33 @@
 
             <div class="right">
 
-                <h3>Data Diri</h3>
+                <h3>
+                    Data Diri
+                </h3>
 
-                <p>Nama: Windarti Setianingrum</p>
+                <p>
+                    Nama: Windarti Setianingrum
+                </p>
 
-                <p>NIM: 2415101052</p>
+                <p>
+                    NIM: 2415101052
+                </p>
 
-                <p>Program Studi: Ilmu Komputer</p>
+                <p>
+                    Program Studi: Ilmu Komputer
+                </p>
 
-                <p>Jenis Kelamin: Perempuan</p>
+                <p>
+                    Jenis Kelamin: Perempuan
+                </p>
 
-                <p>Hobi: Memasak</p>
+                <p>
+                    Hobi: Memasak
+                </p>
 
-                <p>Asal Kota: Singaraja</p>
+                <p>
+                    Asal Kota: Singaraja
+                </p>
 
             </div>
 
@@ -577,8 +365,6 @@
         </section>
 
 
-        <!-- RIWAYAT PENDIDIKAN -->
-
         <section id="education-history">
 
             <p>
@@ -591,10 +377,15 @@
                 <thead>
 
                     <tr>
+
                         <th>No</th>
+
                         <th>Nama Sekolah</th>
+
                         <th>Tahun Masuk</th>
+
                         <th>Tahun Lulus</th>
+
                     </tr>
 
                 </thead>
@@ -603,18 +394,28 @@
                 <tbody>
 
                     <tr>
+
                         <td>1</td>
+
                         <td>SMPN 6 Singaraja</td>
+
                         <td>2018</td>
+
                         <td>2021</td>
+
                     </tr>
 
 
                     <tr>
+
                         <td>2</td>
+
                         <td>SMKN 3 Singaraja</td>
+
                         <td>2021</td>
+
                         <td>2024</td>
+
                     </tr>
 
                 </tbody>
@@ -623,9 +424,11 @@
                 <tfoot>
 
                     <tr>
+
                         <th colspan="4">
                             Riwayat Pendidikan
                         </th>
+
                     </tr>
 
                 </tfoot>
