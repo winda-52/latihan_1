@@ -192,6 +192,37 @@ td:nth-child(4) {
     width: 25%;
 }
 
+#portfolio {
+    clear: both;
+}
+
+.portfolio-item {
+    background-color: #f5f3ff;
+    border: 1px solid #a78bfa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    margin-top: 0;
+    color: #4c1d95;
+}
+
+.portfolio-item p {
+    margin: 8px 0;
+}
+
+.portfolio-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
 tfoot th {
     text-align: center;
     background-color: #ddd6fe;
